@@ -1,6 +1,6 @@
 const count = document.querySelector('.count');
-const input = document.createElement('input');
+const input = document.querySelector('input');
 
 input.addEventListener("keyup", () => {
-    count.innerHTML=input.value.length
+    count.innerHTML = input.value.length
 })
